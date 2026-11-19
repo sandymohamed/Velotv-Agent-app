@@ -1,0 +1,13 @@
+:root{--purple:#08766e}
+.agent-shell .sidebar,.login-brand{background:#102c35}
+.agent-shell .brand-icon{background:#08766e;box-shadow:none}
+.agent-shell .sidebar button.current{background:#17434a;border-color:#32616a}
+.agent-shell .sidebar-foot p{color:#c8e2e1;margin-bottom:12px}
+.agent-shell .section>p{margin:12px 0;line-height:1.6}
+.agent-modal{width:min(560px,calc(100% - 24px));max-height:calc(100dvh - 24px);overflow:auto}
+.agent-modal::backdrop{background:#0e1b32a0}
+.transfer-summary{display:grid;gap:12px;padding:16px;background:#edf8f5;border-radius:12px}
+.transfer-summary p{display:flex;justify-content:space-between;gap:16px}
+.agent-shell .metrics{margin-top:0}
+.agent-shell .toolbar{flex-wrap:wrap}
+@media(max-width:760px){.agent-shell{display:block}.agent-shell .sidebar{position:static;width:auto;min-height:0;height:auto;padding:16px}.agent-shell .sidebar nav{display:flex;overflow:auto}.agent-shell .sidebar nav button{white-space:nowrap;width:auto}.agent-shell .sidebar-foot{margin-top:12px}.agent-shell .main{margin-left:0}.transfer-summary p{flex-wrap:wrap}}
